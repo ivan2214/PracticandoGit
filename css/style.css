@@ -5,15 +5,15 @@
     box-sizing: border-box;
 }
 
-.header_contain h1 {
+.post h1 {
     color: pink;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+   text-align: left;
 }
-.header_contain p{
+.post p{
     color: rgb(105, 105, 105);
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+   
     margin-top: 1rem;
 }
 
@@ -28,5 +28,24 @@
     width: 70%;
     border: .3rem solid #ddd;
     padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
 
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    padding: 3rem;
+}
+
+#cabecera{
+    border: 1px solid blue;
+    margin-bottom: 1rem;
+    padding: 2rem;
 }
