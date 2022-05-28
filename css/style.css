@@ -1,10 +1,32 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
 }
 
-header h1{
-    color:red
+.header_contain h1 {
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.header_contain p{
+    color: rgb(105, 105, 105);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.header_contain {
+    width: 70%;
+    border: .3rem solid #ddd;
+    padding: 5rem;
+
 }
